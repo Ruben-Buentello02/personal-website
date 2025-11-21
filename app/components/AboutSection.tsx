@@ -128,10 +128,7 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const images = [
-    '/images/ImageCarousel/AsherAndMe.jpg',
-    '/images/ImageCarousel/MeInIndianaU.jpg',
-    '/images/ImageCarousel/StudentsAndMe.jpg',
-    '/images/ImageCarousel/WylieAndMe.jpg'
+    '/images/spongebob.jpg'
   ];
 
   useEffect(() => {
