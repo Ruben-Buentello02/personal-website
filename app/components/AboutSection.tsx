@@ -136,10 +136,10 @@ const ImageCarousel = () => {
       setCurrentIndex((prevIndex) => 
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change image every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]); // FIXED: Added images.length to dependency array
 
   return (
     <div className="relative w-full h-[500px] overflow-hidden rounded-lg">

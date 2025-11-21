@@ -14,16 +14,19 @@ const achievementsList = [
     metric: "Anime's watched",
     value: "100",
     postfix: "+",
+    prefix: "", // FIXED: Added prefix property
   },
-  
   {
     metric: "Manga Read",
     value: "40",
     postfix: "+",
+    prefix: "", // FIXED: Added prefix property
   },
   {
     metric: "Years",
     value: "5",
+    postfix: "", // FIXED: Added postfix property (even if empty)
+    prefix: "", // FIXED: Added prefix property
   },
 ];
 
